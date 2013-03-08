@@ -2,7 +2,7 @@
 //  main.m
 //  NavigationAnimationDemo
 //
-//  Created by 杨宁 on 13-3-8.
+//  Created by numbbuaa on 13-3-8.
 //  Copyright (c) 2013年 numbbuaa. All rights reserved.
 //
 

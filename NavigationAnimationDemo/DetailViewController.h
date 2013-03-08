@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DetailViewController.h
 //  NavigationAnimationDemo
 //
 //  Created by numbbuaa on 13-3-8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface DetailViewController : UIViewController
 
 @end

@@ -16,6 +16,10 @@
 		9C1A1E6816E9CA48004B27E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1A1E6716E9CA48004B27E3 /* Default.png */; };
 		9C1A1E6A16E9CA48004B27E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1A1E6916E9CA48004B27E3 /* Default@2x.png */; };
 		9C1A1E6C16E9CA48004B27E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1A1E6B16E9CA48004B27E3 /* Default-568h@2x.png */; };
+		9C1A1E7416E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A1E7316E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.m */; };
+		9C1A1E7716E9CB37004B27E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A1E7616E9CB37004B27E3 /* ViewController.m */; };
+		9C1A1E7A16E9CC55004B27E3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A1E7916E9CC55004B27E3 /* DetailViewController.m */; };
+		9C1A1E7C16E9CD47004B27E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1A1E7B16E9CD47004B27E3 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,13 @@
 		9C1A1E6716E9CA48004B27E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9C1A1E6916E9CA48004B27E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9C1A1E6B16E9CA48004B27E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9C1A1E7216E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TRVSNavigationControllerTransition.h"; sourceTree = "<group>"; };
+		9C1A1E7316E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TRVSNavigationControllerTransition.m"; sourceTree = "<group>"; };
+		9C1A1E7516E9CB37004B27E3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C1A1E7616E9CB37004B27E3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C1A1E7816E9CC55004B27E3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9C1A1E7916E9CC55004B27E3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9C1A1E7B16E9CD47004B27E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1A1E7C16E9CD47004B27E3 /* QuartzCore.framework in Frameworks */,
 				9C1A1E5616E9CA47004B27E3 /* UIKit.framework in Frameworks */,
 				9C1A1E5816E9CA47004B27E3 /* Foundation.framework in Frameworks */,
 				9C1A1E5A16E9CA47004B27E3 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +80,7 @@
 		9C1A1E5416E9CA47004B27E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C1A1E7B16E9CD47004B27E3 /* QuartzCore.framework */,
 				9C1A1E5516E9CA47004B27E3 /* UIKit.framework */,
 				9C1A1E5716E9CA47004B27E3 /* Foundation.framework */,
 				9C1A1E5916E9CA47004B27E3 /* CoreGraphics.framework */,
@@ -78,9 +91,15 @@
 		9C1A1E5B16E9CA47004B27E3 /* NavigationAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9C1A1E7216E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.h */,
+				9C1A1E7316E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.m */,
 				9C1A1E6416E9CA47004B27E3 /* AppDelegate.h */,
 				9C1A1E6516E9CA48004B27E3 /* AppDelegate.m */,
 				9C1A1E5C16E9CA47004B27E3 /* Supporting Files */,
+				9C1A1E7516E9CB37004B27E3 /* ViewController.h */,
+				9C1A1E7616E9CB37004B27E3 /* ViewController.m */,
+				9C1A1E7816E9CC55004B27E3 /* DetailViewController.h */,
+				9C1A1E7916E9CC55004B27E3 /* DetailViewController.m */,
 			);
 			path = NavigationAnimationDemo;
 			sourceTree = "<group>";
@@ -166,6 +185,9 @@
 			files = (
 				9C1A1E6216E9CA47004B27E3 /* main.m in Sources */,
 				9C1A1E6616E9CA48004B27E3 /* AppDelegate.m in Sources */,
+				9C1A1E7416E9CACD004B27E3 /* UINavigationController+TRVSNavigationControllerTransition.m in Sources */,
+				9C1A1E7716E9CB37004B27E3 /* ViewController.m in Sources */,
+				9C1A1E7A16E9CC55004B27E3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +264,12 @@
 		9C1A1E7016E9CA48004B27E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationAnimationDemo/NavigationAnimationDemo-Prefix.pch";
 				INFOPLIST_FILE = "NavigationAnimationDemo/NavigationAnimationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -253,9 +278,12 @@
 		9C1A1E7116E9CA48004B27E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavigationAnimationDemo/NavigationAnimationDemo-Prefix.pch";
 				INFOPLIST_FILE = "NavigationAnimationDemo/NavigationAnimationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

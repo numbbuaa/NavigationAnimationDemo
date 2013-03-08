@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  NavigationAnimationDemo
 //
-//  Created by 杨宁 on 13-3-8.
+//  Created by numbbuaa on 13-3-8.
 //  Copyright (c) 2013年 numbbuaa. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -20,6 +21,11 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    ViewController *root = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];
+    [root release];
+    self.window.rootViewController = nav;
+    [nav release];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
