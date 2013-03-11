@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DetailViewController.h"
+#import "UINavigationController+TRVSNavigationControllerTransition.h"
 
 @interface ViewController ()
 
@@ -57,7 +58,8 @@
 - (void)go2detail
 {
     DetailViewController *vc = [[DetailViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
+    //[self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewControllerWithNavigationControllerTransition:vc];
 }
 
 @end

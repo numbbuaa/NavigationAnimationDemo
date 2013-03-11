@@ -23,7 +23,9 @@ static NSTimeInterval const kTransitionDuration = .3f;
 - (void)animationDidStop:(CAAnimation *)animation finished:(BOOL)flag
 {
     [kTRVSCurrentLayer removeFromSuperlayer];
+    kTRVSCurrentLayer = nil;
     [kTRVSNextLayer removeFromSuperlayer];
+    kTRVSNextLayer = nil;
 }
 
 + (TRVSNavigationControllerTransitionAnimiationDelegate *)sharedDelegate
